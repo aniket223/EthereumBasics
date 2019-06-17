@@ -1,3 +1,5 @@
+// this code is used to check whether an address is a smart contract address or a random user account address
+// a smart contract address always have a bytecode so check for that
 package main
 
 import (
