@@ -15,7 +15,7 @@ import (
 
 func main() {
 	// dial in the connection
-	//also keep here the testnet/mainnet in which you have ether
+	//also keep here the testnet/mainnet in which you have ethercl
 	client, err := ethclient.Dial("https://ropsten.infura.io")
 	if err != nil {
 		log.Fatal(err)
