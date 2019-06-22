@@ -1,5 +1,6 @@
 //code to transfer ERC-20 tokens other than ether
 //To transfer ERC-20 tokens we use data field and not the value field used to transfer ether
+//see details about token contract in readme file
 package main
 
 import (
