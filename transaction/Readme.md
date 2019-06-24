@@ -8,6 +8,12 @@ Order in which to read files:
 
 4. Transfer_tokens.go
 
+5. block_subscribe.go
+
+6. rawtransaction_create.go
+
+7. rawtransaction_send.go
+
 You can create tokens needed in Transfer_tokens.go from tokenfactory.surge.sh, I
 found one token contract already created by miguelmota and used that token
 contract to run my code. 
