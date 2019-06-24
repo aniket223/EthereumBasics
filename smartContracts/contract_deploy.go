@@ -41,6 +41,7 @@ func main() {
 	auth.GasLimit = uint64(300000) // in units
 	auth.GasPrice = gasPrice
 	input := "1.0"
+	//deploy ethereum contract binding an instance of Store to it
 	address, tx, instance, err := store.DeployStore(auth, client, input)
 	if err != nil {
 		log.Fatal(err)
