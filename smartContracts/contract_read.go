@@ -4,7 +4,7 @@ import (
 "log"
 "github.com/ethereum/go-ethereum/common"
 "github.com/ethereum/go-ethereum/ethclient"
-store "./contracts" // for demo
+store "ethereumBasics/smartContracts/contracts" // for demo
 )
 func main() {
 client, err := ethclient.Dial("https://rinkeby.infura.io")

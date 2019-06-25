@@ -35,7 +35,9 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	//create a keyed transactor
 	auth := bind.NewKeyedTransactor(privateKey)
+	//set the standard transaction options
 	auth.Nonce = big.NewInt(int64(nonce))
 	auth.Value = big.NewInt(0)// in wei
 	auth.GasLimit = uint64(300000) // in units
