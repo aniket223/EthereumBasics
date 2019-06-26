@@ -1,4 +1,4 @@
-//code to subscribe to events
+//code to subscribe to events 
 //the output of the events are stored in transaction receipts under a logs section
 
 package main

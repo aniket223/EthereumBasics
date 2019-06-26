@@ -20,5 +20,7 @@ Transaction
 
 smartContracts
 
+eventLogs
+
 <br> 
 
